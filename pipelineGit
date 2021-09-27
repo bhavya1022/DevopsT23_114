@@ -1,0 +1,29 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        
+        stage('Risk Evaluation') {
+            steps {
+                echo 'RMM'
+            }
+        }
+        
+        stage('Testing') {
+            steps {
+                echo 'Testing Software'
+            }
+        }
+        
+        stage('Coding') {
+            steps {
+                echo 'Coding in Progress'
+            }
+        }
+    }
+}

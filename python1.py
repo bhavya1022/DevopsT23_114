@@ -1,8 +1,8 @@
 import os
 # Program to display the Fibonacci sequence up to n-th term
 
-a = os.environ['n']
-nterms = int(a)
+# a = os.environ['n']
+nterms = 5
 # first two terms
 n1, n2 = 0, 1
 count = 0
